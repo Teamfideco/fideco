@@ -1,0 +1,61 @@
+/* 기본 배경 및 폰트 스타일링 */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #121212; /* 어두운 배경색 */
+    color: #E0E0E0; /* 밝은 글자색 */
+}
+
+/* 로고 및 텍스트 스타일 */
+.logo-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+/* 카드 스타일링 개선 */
+.card {
+    background-color: #1E1E1E; /* 카드 배경색 */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* 그림자 색상 조정 */
+}
+
+.card-header, .card-footer {
+    background-color: transparent;
+    border-bottom: 0;
+    color: #CCCCCC; /* 카드 헤더 및 푸터 글자색 */
+}
+
+/* 버튼 스타일링 */
+.btn-custom {
+    background-color: #333333; /* 버튼 배경색 */
+    border-color: #333333; /* 버튼 테두리색 */
+    color: #FFF; /* 버튼 글자색 */
+}
+
+.btn-custom:hover {
+    background-color: #555555; /* 호버 시 버튼 배경색 */
+    border-color: #555555; /* 호버 시 버튼 테두리색 */
+}
+
+/* 입력 폼 스타일링 */
+.form-control {
+    background-color: #333333; /* 입력 필드 배경색 */
+    color: #E0E0E0; /* 입력 필드 글자색 */
+    border-radius: 10px;
+    border: 1px solid #555555; /* 입력 필드 테두리색 */
+}
+
+.form-control::placeholder { /* 플레이스홀더 색상 */
+    color: #B0B0B0;
+}
+
+/* 네비게이션 바 커스터마이징 */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5); /* 네비게이션 링크 기본 색상 */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,.75); /* 네비게이션 링크 호버 색상 */
+}

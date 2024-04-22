@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f0eae0; /* 부드러운 베이지색 배경 */
+    font-family: 'Noto Sans KR', sans-serif; /* 글꼴 설정 */
+    color: #333; /* 글자 색상 */
+    margin: 0;
+    padding: 20px;
+}
+
+h2, h5 {
+	font-size: 24px;
+    color: #6a4f4b; /* 제목 색상 */
+    text-align: center;
+   
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #ccc;
+	margin: 20px 0;
+}
+
+table {
+    width: 100%; /* 테이블 전체 너비 */
+    border-collapse: collapse; /* 테이블 간격 없애기 */
+    margin: 0 auto; /* 가운데 정렬 */
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* 테이블, 셀 테두리 색상 */
+   text-align: center; /* 셀 내부 텍스트 가운데 정렬 */
+}
+
+th, td {
+    padding: 10px; /* 셀 안쪽 여백 */
+}
+
+th {
+    background-color: #d6c2b2; /* 헤더 배경색 */
+    color: white; /* 헤더 글자색 */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* 짝수 줄 배경색 */
+}
+
+
+.select-style {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* 셀렉트 박스 둥글게 */
+}
+
+.btn {
+    background-color: transparent; /* 배경색 투명으로 설정 */
+    color: #8B4513; /* 버튼 글자색 */
+    padding: 10px 20px;
+    border: 2px solid #D2B48C; /* 테두리 색상 및 굵기 설정 */
+    border-radius: 5px; /* 버튼 둥글게 */
+    cursor: pointer; /* 클릭 가능한 손가락 모양 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+    transition: color 0.3s, border-color 0.3s; /* 글자색 및 테두리 색상 변경 애니메이션 */
+    float: right; /* 오른쪽 정렬 */
+    margin-left: 10px; /* 왼쪽 마진 추가 */
+    margin-top: 10px;
+}
+
+/* 취소 버튼 스타일 */
+.btn[type="reset"] {
+    color: #556B2F; /* 취소 버튼 글자색 */
+    border-color: #556B2F; /* 취소 버튼 테두리 색상 */
+}
+
+/* 취소 버튼 호버 스타일 */
+.btn[type="reset"]:hover {
+    color: #6B8E23; /* 취소 버튼 호버 시 글자색 */
+    border-color: #6B8E23; /* 취소 버튼 호버 시 테두리 색상 */
+}
+
+/* 포인터 변경 */
+.btn:hover {
+    cursor: pointer; /* 마우스를 버튼 위에 올리면 포인트 변경 */
+	color: #6B8E23;
+}
+
+.btn-detail {
+    display: block;
+    margin: 0 auto; /* 수평 가운데 정렬 */
+    text-align: center; /* 텍스트 내용 가운데 정렬 */
+    background-color: transparent; /* 배경색 투명으로 설정 */
+    color: #8B4513; /* 버튼 글자색 */
+    border: #6B8E23; /* 테두리 색상 및 굵기 설정 */
+    border-radius: 5px; /* 버튼 둥글게 */
+    padding: 10px 20px; /* 내부 여백 설정 */
+    cursor: pointer; /* 클릭 가능한 손가락 모양 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+    transition: color 0.3s, border-color 0.3s; /* 글자색 및 테두리 색상 변경 애니메이션 */
+}
+
+.btn-detail:hover {
+    cursor: pointer; /* 마우스를 버튼 위에 올리면 포인트 변경 */
+	color: #6B8E23;
+}
+
+/* 입력 필드 기본 스타일 */
+input[type=text], select, input[type=date] {
+    width: 100%; /* 전체 너비 */
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* 둥근 모서리 */
+    box-sizing: border-box; /* 박스 크기 지정 */
+}
+/* 텍스트 영역 스타일 */
+textarea {
+    width: 100%; /* 전체 너비 조정 */
+    height: 150px; /* 높이 설정 */
+    padding: 12px 20px; /* 패딩 */
+    margin: 8px 0; /* 마진 */
+    border: 1px solid #ccc; /* 테두리 */
+    border-radius: 4px; /* 둥근 모서리 */
+    box-sizing: border-box; /* 박스 크기 지정 */
+    background-color: #f8f8f8; /* 배경색 */
+    font-size: 16px; /* 글꼴 크기 */
+    resize: none; /* 크기 조절 비활성화 */
+}
+
+input[name="notice_content"] {
+    height: 200px; /* 높이를 조정할 값으로 변경 가능 */
+}
+

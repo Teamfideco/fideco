@@ -1,0 +1,41 @@
+/* mystyle.css */
+
+/* 전체 페이지의 폰트와 배경색을 조정합니다. */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* 내비게이션 바 스타일링 */
+.navbar {
+    border-bottom: 3px solid #007bff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* 메인 컨텐츠 카드 스타일링 */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* 푸터 스타일링 */
+#main-footer {
+    background-color: #343a40;
+    color: #cccccc;
+}
+
+#main-footer p {
+    margin: 0;
+}
