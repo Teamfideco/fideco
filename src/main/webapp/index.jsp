@@ -15,7 +15,7 @@
         color: #333333;
         margin: 0;
         padding: 20px;
-        background-image: url('image/구름.jpg'); /* 이미지 경로 수정 */
+        background-image: url('image/구름1.jpg'); /* 이미지 경로 수정 */
         background-size: cover;
         animation: moveClouds 60s linear infinite;
     }
